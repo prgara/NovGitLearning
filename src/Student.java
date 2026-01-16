@@ -1,10 +1,18 @@
 class Student{
     String name;
     String roolNo;
+    String ID;
+
 
     public Student(String name, String roolNo) {
         this.name = name;
         this.roolNo = roolNo;
+    }
+
+    public Student(String name, String roolNo, String ID) {
+        this.name = name;
+        this.roolNo = roolNo;
+        this.ID = ID;
     }
 
     public String getName() {
