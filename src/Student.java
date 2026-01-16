@@ -1,6 +1,8 @@
 class Student{
     String name;
     String roolNo;
+    String ID;
+
 
     public Student(String name, String roolNo) {
         this.name = name;
@@ -8,11 +10,12 @@ class Student{
     }
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.name = name+" ";
     }
 
     public String getRoolNo() {
