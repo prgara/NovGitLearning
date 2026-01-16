@@ -4,6 +4,8 @@ class Student{
     String ID;
 
 
+    String majorSub;
+    String dob;
     public Student(String name, String roolNo) {
         this.name = name;
         this.roolNo = roolNo;
