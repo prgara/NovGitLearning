@@ -2,31 +2,30 @@ class Student{
     String name;
     String roolNo;
     String ID;
-
-
     String majorSub;
     String subject;
     String dob;
+    String rank;
 
-   public Student(String name, String roolNo, String subject, String dob) {
+   public Student(String name, String roolNo, String subject, String dob, String rank) {
         this.name = name;
         this.roolNo = roolNo;
         this.subject = subject;
         this.dob = dob;
+        this.rank=rank;
     }
 
     public String getName() {
-
-        return name;
+       return name;
     }
 
     public void setName(String name) {
-        this.name = name+" ";
+        this.name = name;
     }
 
     public String getRoolNo() {
         return roolNo;
-    }
+    }.
 
     public void setRoolNo(String roolNo) {
         this.roolNo = roolNo;
@@ -47,4 +46,7 @@ class Student{
     public void setDob(String dob) {
         this.dob = dob;
     }
+
+    public String getRank() {return rank;}
+    public void setRank(String rank) {this.rank = rank;}
 }
