@@ -2,8 +2,6 @@ class Student{
     String name;
     String roolNo;
     String ID;
-
-
     String majorSub;
     String subject;
     String dob;
@@ -16,17 +14,16 @@ class Student{
     }
 
     public String getName() {
-
-        return name;
+       return name;
     }
 
     public void setName(String name) {
-        this.name = name+" ";
+        this.name = name;
     }
 
     public String getRoolNo() {
         return roolNo;
-    }
+    }.
 
     public void setRoolNo(String roolNo) {
         this.roolNo = roolNo;
