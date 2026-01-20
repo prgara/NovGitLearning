@@ -2,17 +2,19 @@ class Student{
     String name;
     String roolNo;
     String ID;
+    String classNo;
 
 
     String majorSub;
     String subject;
     String dob;
 
-   public Student(String name, String roolNo, String subject, String dob) {
+   public Student(String name, String roolNo, String subject, String dob, String classNo) {
         this.name = name;
         this.roolNo = roolNo;
         this.subject = subject;
         this.dob = dob;
+        this.classNo = classNo;
     }
 
     public String getName() {
@@ -47,4 +49,8 @@ class Student{
     public void setDob(String dob) {
         this.dob = dob;
     }
+
+    public String getClassNo() { return classNo;    }
+
+    public void setClassNo(String classNo) { this.classNo = classNo; }
 }
