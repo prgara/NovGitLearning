@@ -1,18 +1,18 @@
-class Student{
+class Student {
     String name;
-    String roolNo;
-    String ID;
-
-
-    String majorSub;
-    String subject;
+    String rollNumber;
     String dob;
+    String address;
+    String subject;
 
-   public Student(String name, String roolNo, String subject, String dob) {
+
+    public Student(String name, String rollNo, String subject, String dob, String address) {
         this.name = name;
-        this.roolNo = roolNo;
+        this.rollNumber = rollNo;
         this.subject = subject;
         this.dob = dob;
+        this.address = address;
+
     }
 
     public String getName() {
@@ -21,15 +21,15 @@ class Student{
     }
 
     public void setName(String name) {
-        this.name = name+" ";
+        this.name = name + " ";
     }
 
-    public String getRoolNo() {
-        return roolNo;
+    public String getRollNo() {
+        return rollNumber;
     }
 
-    public void setRoolNo(String roolNo) {
-        this.roolNo = roolNo;
+    public void setRollNo(String rollNo) {
+        this.rollNumber = rollNo;
     }
 
     public String getSubject() {
@@ -47,4 +47,12 @@ class Student{
     public void setDob(String dob) {
         this.dob = dob;
     }
+
+    public void setAddress(String address) {
+        this.Address = address;
+    }
+    public String getAddress() {
+        return Address;
+    }
+
 }
