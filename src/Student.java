@@ -1,10 +1,10 @@
 class Student{
     String name;
-    String roolNo;
+    String rollNumber;
 
-    public Student(String name, String roolNo) {
+    public Student(String name, String rollNo) {
         this.name = name;
-        this.roolNo = roolNo;
+        this.rollNumber = rollNo;
     }
 
     public String getName() {
@@ -15,11 +15,11 @@ class Student{
         this.name = name;
     }
 
-    public String getRoolNo() {
-        return roolNo;
+    public String getRollNo() {
+        return rollNumber;
     }
 
-    public void setRoolNo(String roolNo) {
-        this.roolNo = roolNo;
+    public void setRollNo(String rollNo) {
+        this.rollNumber = rollNo;
     }
 }
