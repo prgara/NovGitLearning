@@ -10,7 +10,7 @@ class Student{
     public String getName() {
         return name;
     }
-
+// Shikha Method
     public void setName(String name) {
         this.name = name;
     }
