@@ -1,5 +1,5 @@
 class Student{
-    String name;
+    String names;
     String roolNo;
     String ID;
 
